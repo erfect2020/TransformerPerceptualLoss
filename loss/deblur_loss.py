@@ -8,10 +8,7 @@ from models.dual_model_mae import mae_vit_base_patch16
 from utils.pos_embed import interpolate_pos_embed
 from loss.contrast_loss import selfPerceptualLoss
 from torchvision.transforms.functional import normalize
-from loss.hist_loss import HistLoss
 from loss.pdl import projectedDistributionLoss
-
-from loss.vgg_loss import PerceptualVGGLoss
 from utils.pos_embed import interpolate_pos_embed, interpolate_pos_encoding
 
 
