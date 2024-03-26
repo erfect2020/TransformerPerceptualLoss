@@ -9,8 +9,6 @@ This repository is an official implementation of **Image Deblurring by Exploring
 from loss.deblur_loss import ReconstructPerceptualLoss as ReconstructLoss
 model = yourmodel()
 for index, train_data in tqdm(enumerate(train_loader)):
-        # continue
-        # training
         gt, b_img = train_data
         b_img = b_img.cuda()
         gt_img = gt.cuda()
