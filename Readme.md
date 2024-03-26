@@ -11,6 +11,11 @@ from loss.deblur_loss import ReconstructPerceptualLoss as ReconstructLoss
 
 
 model = yourmodel()
+
+criterion = ReconstructLoss(opt)
+model = model.cuda()
+criterion.pretrain_mae = criterion.pretrain_mae.to(torch.device('cuda'))
+
 for index, train_data in tqdm(enumerate(train_loader)):
         gt, b_img = train_data
         b_img = b_img.cuda()
