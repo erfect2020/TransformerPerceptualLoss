@@ -11,7 +11,6 @@ from loss.deblur_loss import ReconstructPerceptualLoss as ReconstructLoss
 
 
 model = yourmodel()
-
 criterion = ReconstructLoss(opt)
 model = model.cuda()
 criterion.pretrain_mae = criterion.pretrain_mae.to(torch.device('cuda'))
