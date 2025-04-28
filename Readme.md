@@ -3,6 +3,10 @@
 This repository is an official implementation of **Image Deblurring by Exploring In-depth Properties of Transformer**.
 
 
+## Weight
+
+The pretrained MAE is original from the MAE repo. Please download the ViT-Base model.
+
 ## Basic usage
 
 ```
