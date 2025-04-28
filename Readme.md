@@ -5,7 +5,7 @@ This repository is an official implementation of **Image Deblurring by Exploring
 
 ## Weight
 
-The pretrained MAE is original from the MAE repo. Please download the ViT-Base model.
+The pretrained MAE is original from the MAE repo. Please download the [ViT-Base](https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base.pth) model.
 
 ## Basic usage
 
